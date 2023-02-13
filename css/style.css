@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*-------------HEADER------------------*/
+
+header{
+    background-color: #599B80;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+
+}
+header h1{
+    text-align: left;
+    font-size: 40px;
+    margin-right: 40px;
+    color: white;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+
+}
+/*---------------MAIN-------------------*/
+main .portada{
+    background-image: url(../img/portadaPerroYGato.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height:50vh;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .portada h2{
+    color: white;
+    font-size: 70px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #599B80;
+    }
+
+main .portada p{
+    color:white;
+    font-size: 35px;
+    text-align: center;
+}
+main .mascotas h2{
+    background-color: #599B80;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    padding: 10px;
+}
+main .mascotas p{
+    width: 80%;
+    margin: auto;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
+main .perros{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 20px;
+}
+main .perros .imgperro img{
+    width: 100%;
+    height: 100%;
+}
+main .perros .texperro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+main .perros .texperro h2{
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px;
+}
+main .perros .texperro p{
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
+main .perros .texperro p span{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    color: black;
+}
+main .perros .texperro ol{
+    margin: 20px;
+    text-align: -webkit-center;
+    font-weight: 600;
+}
+main .perros .texperro li{
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+}
